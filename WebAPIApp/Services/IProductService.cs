@@ -2,7 +2,7 @@
 
 namespace WebAPIApp.Services
 {
-    public interface IProcuctServices
+    public interface IProductService
     {
         Task<IEnumerable<Product>> GetAllProductsAsync();
         Task<Product> GetProductByIdAsync(int id);
